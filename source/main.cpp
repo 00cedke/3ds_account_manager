@@ -179,7 +179,7 @@ int main(int argc, char *argv[])
 		}
 		else if (kDown & KEY_UP)
 		{
-			selection = (selection - 1) % 3;
+			selection = (selection - 1 + 3) % 3;
 		}
 		else if (kDown & KEY_DOWN)
 		{
